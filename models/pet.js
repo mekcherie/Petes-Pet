@@ -28,4 +28,3 @@ const PetSchema = new Schema(
 PetSchema.plugin(mongoosePaginate)
 
 module.exports = mongoose.model("Pet", PetSchema)
-
