@@ -1,4 +1,5 @@
 if (document.querySelector("#new-pet")) {
+  
     document.querySelector("#new-pet").addEventListener("submit", (e) => {
       e.preventDefault()
       // Use FormData to grab everything now that we have files mixed in with text
